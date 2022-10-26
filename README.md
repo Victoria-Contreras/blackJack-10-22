@@ -1,0 +1,1 @@
+I had finished my work on another branch since my main branch wasn't running the way I wanted to but I didnt want to lose that code if my new ideas didnt work. I finished the code and on the second branch and it worked as desired so I merged it with the main branch and pushed up only the main branch to github.
