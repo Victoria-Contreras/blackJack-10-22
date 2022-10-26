@@ -10,10 +10,11 @@ body * {
 .message-box {
   width: 900px;
   max-width: calc(100% - 20px);
-  margin: 0 auto 10px;
+  margin: 10px auto 10px;
   height: 1em;
   font-size: 18px;
   color: rgb(22, 77, 8);
+  text-align: center;
 }
 
 .message-box.error {

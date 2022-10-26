@@ -8,4 +8,23 @@ let deckArr = [];
      }
    }
  }
- buildDeck()
+buildDeck()
+ 
+
+if (playerScore === 21) {
+  hitButton.disabled = true;
+  standButton.disabled = true;
+  const flip = document.getElementById('flip');
+  flip.src = `/blackjack-exercise-main/images/${dealerHandArr[0].rank}_of_${dealerHandArr[0].suit}.png`;
+  displayScore("dealer");
+  if (dealerScore === 21) {
+    displayMessage("It's a tie")
+  } else {
+    displayMessage("You Win!")
+  }
+}
+
+function nextRound() {
+  window.location.reload();
+
+}
